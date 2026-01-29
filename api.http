@@ -1,0 +1,17 @@
+### Get all all users
+GET http://localhost:8080/users
+
+### Get user by ID
+GET http://localhost:8080/users/6
+
+## post
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": 11,
+  "name": "New User",
+  "email": "ragini@gmail.com"
+}
+
